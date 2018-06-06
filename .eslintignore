@@ -1,0 +1,4 @@
+dist/
+server/models/index.js
+server/migrations/
+client/build/

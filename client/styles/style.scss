@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cover{
+  background: #7ec8e3 url(../img/nigeria.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 51rem;
+  height: auto;
+  border-radius: 0;
+  width: 100%;
+  position: relative;
+
+}
+
+.cover-overlay{
+  background: rgba(10, 60, 94, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-bg{
+  background-color: #021f2c;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: ghostwhite;
+}
+
+.content {
+  margin-top: 5rem;
+
+}
+
+.content .heading h1{
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  line-height: 150%;
+
+}
+.search{
+  height: 48px;
+  padding: 0;
+}
+.content .heading h4{
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 140%;
+  width: 70%;
+  margin: auto;
+
+}
+
+@media (min-width: 500px){
+  .auth .card{
+    width: 450px;
+  }
+}
+
+.auth .card-form {
+  opacity: 0.9;
+  float: none;
+  margin: 0 auto;
+}
+
+.auth .card-form input{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),
+  0 0 0 1px rgba(0,0,0,0.08);
+}
+
+
+.category-item {
+  width: 100px;
+  background-color: rgba(5, 22, 32, 0.747)
+}
+
+.category-item:hover {
+  width: 120px;
+  background-color: rgba(11, 53, 77, 0.747);
+  cursor: pointer;
+}
+
+
+.foot-icons i{
+  margin-right: 10px;
+  font-size: 150%;
+}
+
+
+footer{
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.all-reviews .card{
+  margin: 2%;
+}
+
+.card-img-overlay{
+  background: rgba(0, 0, 0, 0.15);
+}
+
+
+#business-list .card-img-overlay a {
+  word-wrap: break-word;
+  position: absolute;
+  background-color: rgba(8, 28, 41, 0.7);
+  bottom: 40%;
+  font-size: 40;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.bg-cover{
+  background: #EFEFF4;
+  background-size: cover;
+  min-height: 47rem;
+  height: auto;
+  border-radius: 0;
+  width: 100%;
+  position: relative;
+}
+
+#business-detail .card-img-overlay a {
+  word-wrap: break-word;
+  position: fixed;
+  background-color: rgba(8, 28, 41, 0.7);;
+  justify-content: center;
+  bottom: 55%;
+  font-size: 40;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+#business-detail .card-body{
+  position: relative;
+}
+
+.data{
+  display: flex;
+}
+
+.data1{
+  flex: 1;
+}
+
+.data2 button{
+  height: 3rem;
+}
+
+.like i {
+  color: red;
+}
+
+.share i {
+  color: #1278BB;
+}
+
+.star i{
+  color: #EC902C;;
+}
+
+.straight{
+  margin: 30px -20px 20px;
+}
+
+.rate {
+  background-color: #7EB544;
+  padding: 3px;
+  color: #fff;
+}
+
+.add-business-cover{
+  background: #EFEFF4;
+  background-size: cover;
+  height: auto;
+  border-radius: 0;
+  width: 100%;
+  position: relative;
+
+}
+
+.add-business small {
+  color: red;
+}
+
+.list-cover {
+  background: #EFEFF4;
+  background-size: cover;
+  border-radius: 0;
+  width: 100%;
+  position: relative;
+  margin-bottom: 75px;
+}
+
+#business-list .card {
+  margin: 2px;
+  border-radius: 0;
+}
+
+.bg-search {
+  background: #EFEFF4;
+}

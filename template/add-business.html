@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+    <title>WEconnect</title>
+  </head>
+  <body>
+    <div class="add-business-cover">
+
+        <!-- Navbar Section -->
+        <nav class="navbar navbar-expand-sm navbar-dark nav-bg py-3">
+          <a class="navbar-brand ml-3" href="index.html">WECONNECT</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="business-list.html"><i class="fa fa-th" aria-hidden="true"></i> Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signin.html">Log In</a>
+              </li>
+              <li class="nav-item mr-2">
+                <a class="nav-link" href="signup.html">Sign Up</a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="btn btn-outline-light" href="add-business.html">Add Business</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Form Section -->
+        <div class="add-business container py-5 mt-3 text-dark">
+
+          <form class="row">
+            <div class="form-group col-sm-6">
+              <label for="text">Buisness Name <small>*</small> </label>
+              <input type="text" class="form-control" id="text1" placeholder="Andela" required>
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="inputcategory">Business Category <small>*</small> </label>
+              <select id="inputcategory" class="form-control">
+                <option selected>Choose...</option>
+                <option>Repair & Services</option>
+                <option>Events & Weddings</option>
+                <option>Health & Wellness</option>
+                <option>Professional Services</option>
+                <option>Others</option>
+              </select>
+            </div>
+
+            <div class="form-group col-md-6">
+              <label for="">Business Phone Number</label>
+              <input type="number" class="form-control" placeholder="+2348000000000" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="">Business Email <small>*</small></label>
+              <input type="email" class="form-control" placeholder="name@example.com" required>
+            </div>
+
+          <div class="form-group col-md-6">
+            <label for="inputAddress">Address <small>*</small></label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+          </div>
+
+            <div class="form-group col-md-6">
+              <label for="inputCity">City <small>*</small> </label>
+              <input type="text" class="form-control" id="inputCity" placeholder="City">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputState">State <small>*</small> </label>
+              <select id="inputState" class="form-control">
+                <option selected>Lagos</option>
+                <option>Ogun</option>
+              </select>
+            </div>
+
+            <div class="form-group col-md-6">
+              <label for="filefield">Business Image</label>
+              <input type="file" class="form-control-file" id="filefield">
+            </div>
+            <button type="submit" class="m-3 col-md-2 btn btn-dark">Submit</button>
+            <p class="col-12 my-4">Fields with <small>*</small> are required </p>
+          </form>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="nav-bg">
+      <div class="container text-light">
+        <div class="row">
+          <div class="col text-center">
+            <div class="py-4">
+              <div class="py-3 foot-icons">
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-envelope"></i>
+              </div>
+              <p>WECONNECT &copy; 2018</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

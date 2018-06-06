@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+    <title>WEconnect</title>
+  </head>
+  <body>
+    <div class="bg-cover">
+
+      <!-- Navbar Section -->
+      <nav class="navbar navbar-expand-sm navbar-dark nav-bg py-3">
+        <a class="navbar-brand ml-3" href="index.html">WECONNECT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="business-list.html"><i class="fa fa-th" aria-hidden="true"></i> Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signin.html">Log In</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="signup.html">Sign Up</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="btn btn-outline-light" href="add-business.html">Add Business</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Business Detail Section -->
+      <div class="container mt-4 mb-4" id="business-detail">
+        <div class="row">
+            <div class="card col px-0">
+              <img class="card-img-top img-overlay" src="img/bg3.jpg" alt="Card image cap" height="300px;">
+              <div class="card-img-overlay ">
+                <a class="h1 text-white card-title" href="business-detail.html">Yum Cuisine</a>
+              </div>
+
+              <div class="card-body text-dark bg-light">
+                <div class="data">
+                  <div class="row data1 ml-1">
+                      <div class="p-1">
+                        <img src="img/bg3.jpg" alt="" height="75px" width="120px">
+                      </div>
+                      <div class="p-1">
+                        <h3 class="">Restaurant</h3>
+                        <p><i class="fa fa-map-marker"></i> Ikeja</p>
+                      </div>
+                    </div>
+                    <div class="row data2 mt-3 ml-4">
+                      <button class="btn btn-outline-dark mr-2 like"> Like <i class="fa fa-heart"></i></button>
+                      <button class="btn btn-outline-dark mr-1 share">
+                        Share
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-envelope"></i>
+                      </button>
+                    </div>
+                </div>
+
+                <div class="row mt-2">
+                  <p class="col-md-6">
+                    Our foods cut across local dishes, each of which is prepared with love and served in a manner that is both pleasing to the eyes & excites your taste buds. We provide ‘culinary satisfaction’ for all events formal or informal such as daily staff lunch, trainings, weddings, birthdays and other events & anniversaries.
+                  </p>
+                  <img class="col-md-6" width="500" src="https://maps.googleapis.com/maps/api/staticmap?center=ikeja+lagos&zoom=13&scale=2&size=600x50&maptype=roadmap&key=AIzaSyCLsnk6kaDZodV04Vt_teECXuF3VPyexKY&format=png&visual_refresh=true&markers=size:small%7Ccolor:0xff682e%7Clabel:1%7Cikeja+lagos" alt="Google Map of ikeja lagos">
+                </div>
+
+                <div class="review">
+                  <hr class="straight">
+                  <div class="row">
+                    <div class="col star">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <span class="rate">5.0</span>
+                      (2 Reviews)
+                    </div>
+                    <div class="col like">
+                      5 likes <i class="fa fa-heart"></i>
+                    </div>
+                    <div class="col">
+                      <i class="fa fa-users"></i>
+                      152 Visits
+                    </div>
+                    <div class="col text-right">
+                      <a href="#" class ="btn btn-outline-dark" data-toggle="modal" data-target=#addReview>
+                        Write a review
+                      </a>
+                    </div>
+                  </div>
+                </div>        
+
+                <!-- Reviews -->
+                <hr class="straight">
+
+                <form>
+                    <h5 class="modal-title m-3">Add Review</h5>
+                    <div class="form-group col-6">
+                      <label for="title">Review <small>*</small> </label>
+                      <textarea type="text" class="form-control" required></textarea>
+                    </div>
+                    <div class="form-group col-6">
+                      <label for="inputState">Star <small>*</small> </label>
+                      <select id="inputState" class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                    <p class="ml-3">Fields with <small>*</small> are required</p>
+                    <div class="">
+                      <button class="btn btn-outline-dark ml-3" type="submit">Submit</button>
+                  </div>
+                </form>
+
+                <div class="all-reviews">
+                  <div class="card">
+                    <div class="row card-body">
+                      <div class="review-user p-2 text-center col-md-2">
+                        <img class="rounded-circle" src="img/user2.jpg"width="120" height="100" alt="" >
+                        <div class="caption mt-1">
+                            <small><a href="">Rotimi</a></small>
+                        </div>
+                      </div>
+                      <div class="ml-3 review-text card-text align-self-center col-md">
+                        <div class=" star align-self-center">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                        <p class="mt-2">We had the crispy shrimp and jollof rice 2 days ago and it was so good, we came back and ordered it again tonight. Soooo good</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="row card-body">
+                      <div class="review-user p-2 text-center col-md-2">
+                        <img class="rounded-circle" src="img/user1.jpg" width="120" height="100" alt="" >
+                        <div class="caption mt-1">
+                            <small><a href="">Sarah Ochem</a></small>
+                        </div>
+                      </div>
+                      <div class="col-md ml-3 review-text card-text align-self-center">
+                        <div class=" star align-self-center">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+
+                        </div>
+                        <p class="mt-2">The food is well prepared and tasty. We had Obe Dindin and Chef's Combo Platter. Both were excellent. Succulent prawns, fresh greens. Well cooked meat.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+        </div>
+      </div>
+
+
+
+
+      <!-- Footer -->
+      <footer class="nav-bg">
+        <div class="container text-light">
+          <div class="row">
+            <div class="col text-center">
+              <div class="py-4">
+                <div class="py-3 foot-icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <p>WECONNECT &copy; 2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- Modal for Adding Reviews -->
+    <div class="modal fade" id="addReview">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header bg-dark text-white">
+                  <h5 class="modal-title">Add Review</h5>
+                  <buttpn class="close" data-dismiss="modal"><span>&times;</span></buttpn>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <p>Fields with <small>*</small> are required</p>
+                      <div class="form-group">
+                        <label for="title">Review <small>*</small> </label>
+                        <textarea type="text" class="form-control" required></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputState">Star <small>*</small> </label>
+                        <select id="inputState" class="form-control">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button class="btn btn-outline-dark" type="submit" data-dismiss="modal">Submit</button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
