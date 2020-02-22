@@ -91,7 +91,7 @@
     "redux-mock-store": "^1.5.3",
     "redux-thunk": "^2.2.0",
     "sass-loader": "^6.0.7",
-    "sequelize": "^4.36.1",
+    "sequelize": "^5.15.1",
     "sequelize-cli": "^4.0.0",
     "style-loader": "^0.20.3",
     "swagger-ui-express": "^2.0.15",
